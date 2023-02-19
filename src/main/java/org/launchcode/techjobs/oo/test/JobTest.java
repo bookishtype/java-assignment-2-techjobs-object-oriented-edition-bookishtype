@@ -24,12 +24,12 @@ import static org.junit.Assert.assertFalse;
 @RunWith(JUnit4.class)
 public class JobTest {
 
-//    @Test
-//    public void testSettingJobId(){
-//        Job test_job1 = new Job();
-//        Job test_job2 = new Job();
-//        assertNotEquals(test_job1,test_job2);
-//    }
+    @Test
+    public void testSettingJobId(){
+        Job test_job1 = new Job();
+        Job test_job2 = new Job();
+        assertNotEquals(test_job1,test_job2);
+    }
 
     @Test
     public void testJobConstructorSetsAllFields(){
